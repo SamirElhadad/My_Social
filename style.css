@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    position: relative;
+    font-size: 14px;
+    margin: 0;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 375px;
+    padding: 30px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.personal{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    margin: 0 0 5px 0 ;
+}
+.personal img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h4{
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+}
+.social {
+    padding: 0;
+    margin-top: 20px;
+}
+.social li{
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    transition: 0.4s;
+    font-weight: 500;
+    cursor: pointer;
+}
+.social li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.social a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    transition: 0.4s;
+}
+.social li:hover a {
+    color: black;
+}
